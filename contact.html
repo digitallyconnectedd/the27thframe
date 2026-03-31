@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact The 27th Frame — Let's create something meaningful together." />
+  <title>Contact — The 27th Frame</title>
+  <link rel="icon" href="logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <div class="page-transition"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" data-no-transition>THE <span>27</span>TH FRAME</a>
+      <div class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="story.html">Our Story</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav__menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="story.html">Our Story</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
+
+  <!-- ── Page Hero ─────────────────────────────────────────── -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="reveal"><span class="label">Reach Out</span></div>
+      <div class="divider reveal delay-1"></div>
+      <h1 class="page-hero__headline reveal delay-2">
+        LET'S CREATE<br>
+        SOMETHING<br>
+        <em style="font-family: var(--font-serif); font-style: italic; color: var(--red);">meaningful.</em>
+      </h1>
+      <p class="page-hero__sub reveal delay-3">
+        Every collaboration starts with a conversation.
+        Tell us who you are and what you're building —
+        we'll figure out the rest together.
+      </p>
+    </div>
+  </section>
+
+  <div class="cin-line" style="margin: 0;"></div>
+
+  <!-- ── Contact Panel ─────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 5rem;">
+
+        <!-- Statement -->
+        <div>
+          <div class="reveal">
+            <h3 style="font-family: var(--font-serif); font-size: clamp(1.2rem, 3.5vw, 1.7rem); color: var(--white); font-weight: 300; line-height: 1.55; margin-bottom: 1.5rem;">
+              We read every message ourselves.<br>
+              There's no inbox manager here.
+            </h3>
+          </div>
+          <div class="divider reveal delay-1"></div>
+          <p class="reveal delay-2" style="font-size: 0.9rem; color: var(--gray-mid); line-height: 1.9; max-width: 540px;">
+            When you reach out, you're speaking directly to the people who will
+            plan, shoot, and edit your project. We take that seriously —
+            which means we respond with actual thoughts, not auto-replies.
+          </p>
+        </div>
+
+        <!-- Contact Channels -->
+        <div>
+          <span class="label reveal" style="display: block; margin-bottom: 2rem;">How to Reach Us</span>
+
+          <div style="display: grid; grid-template-columns: 1fr; gap: 1px; background: rgba(200,195,188,0.06);">
+
+            <a href="mailto:hello@the27thframe.com"
+               class="contact-channel reveal delay-1"
+               style="display: flex; align-items: center; gap: 1.5rem; padding: 2rem 1.5rem; background: var(--surface); text-decoration: none;">
+              <div class="contact-detail__icon">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div style="flex: 1;">
+                <span style="display: block; font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gray-mid); margin-bottom: 0.3rem;">Email</span>
+                <p style="font-family: var(--font-serif); font-size: 1.05rem; color: var(--white); font-weight: 300;">hello@the27thframe.com</p>
+              </div>
+              <svg class="channel-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+
+            <a href="https://instagram.com/the27thframe" target="_blank" rel="noopener noreferrer"
+               class="contact-channel reveal delay-2"
+               style="display: flex; align-items: center; gap: 1.5rem; padding: 2rem 1.5rem; background: var(--surface); text-decoration: none;">
+              <div class="contact-detail__icon">
+                <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div style="flex: 1;">
+                <span style="display: block; font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gray-mid); margin-bottom: 0.3rem;">Instagram</span>
+                <p style="font-family: var(--font-serif); font-size: 1.05rem; color: var(--white); font-weight: 300;">@the27thframe</p>
+              </div>
+              <svg class="channel-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+
+            <a href="https://wa.me/XXXXXXXXXXX" target="_blank" rel="noopener noreferrer"
+               class="contact-channel reveal delay-3"
+               style="display: flex; align-items: center; gap: 1.5rem; padding: 2rem 1.5rem; background: var(--surface); text-decoration: none;">
+              <div class="contact-detail__icon">
+                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.63 19.79 19.79 0 01.22 1 2 2 0 012.22 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+              </div>
+              <div style="flex: 1;">
+                <span style="display: block; font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gray-mid); margin-bottom: 0.3rem;">WhatsApp / Phone</span>
+                <p style="font-family: var(--font-serif); font-size: 1.05rem; color: var(--white); font-weight: 300;">+XX XXX XXX XXXX</p>
+              </div>
+              <svg class="channel-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Response Flow -->
+        <div class="reveal">
+          <span class="label" style="display: block; margin-bottom: 1.75rem;">What Happens After</span>
+          <div style="display: flex; flex-direction: column; gap: 2rem;">
+
+            <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+              <div style="text-align: center; flex-shrink: 0; width: 44px;">
+                <div style="font-family: var(--font-display); font-size: 1.6rem; color: var(--red); line-height: 1;">1</div>
+                <div style="width: 1px; height: 36px; background: rgba(181,32,32,0.2); margin: 0.4rem auto 0;"></div>
+              </div>
+              <div style="padding-top: 0.15rem;">
+                <p style="font-family: var(--font-serif); font-size: 1.05rem; color: var(--white); font-weight: 300; margin-bottom: 0.4rem;">You reach out</p>
+                <p style="font-size: 0.85rem; color: var(--gray-mid); line-height: 1.75;">Email, Instagram DM, or WhatsApp. Tell us about your project — as much or as little as you know.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+              <div style="text-align: center; flex-shrink: 0; width: 44px;">
+                <div style="font-family: var(--font-display); font-size: 1.6rem; color: var(--red); line-height: 1;">2</div>
+                <div style="width: 1px; height: 36px; background: rgba(181,32,32,0.2); margin: 0.4rem auto 0;"></div>
+              </div>
+              <div style="padding-top: 0.15rem;">
+                <p style="font-family: var(--font-serif); font-size: 1.05rem; color: var(--white); font-weight: 300; margin-bottom: 0.4rem;">We respond with perspective</p>
+                <p style="font-size: 0.85rem; color: var(--gray-mid); line-height: 1.75;">Not a template. Not a rate card. A real reply from the people who would make your work.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+              <div style="text-align: center; flex-shrink: 0; width: 44px;">
+                <div style="font-family: var(--font-display); font-size: 1.6rem; color: var(--red); line-height: 1;">3</div>
+              </div>
+              <div style="padding-top: 0.15rem;">
+                <p style="font-family: var(--font-serif); font-size: 1.05rem; color: var(--white); font-weight: 300; margin-bottom: 0.4rem;">The project begins</p>
+                <p style="font-size: 0.85rem; color: var(--gray-mid); line-height: 1.75;">If it's a fit, we move fast. Pre-production, concept, execution — all driven by one question: what does this story need?</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Closing Quote ─────────────────────────────────────── -->
+  <section class="section--sm">
+    <div class="container">
+      <div class="quote-block reveal">
+        <blockquote>
+          "Every collaboration starts with a message.<br>
+          Send yours — we'll take it from there."
+        </blockquote>
+        <cite>— The 27th Frame</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer class="footer section--sm">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__logo">THE <span>27</span>TH FRAME</div>
+          <div class="footer__tagline">Every frame counts.</div>
+        </div>
+        <nav class="footer__nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="story.html">Our Story</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 The 27th Frame. All rights reserved.</p>
+        <p class="footer__copy">Emotion-driven. Story-first. Concept-focused.</p>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    .contact-channel {
+      transition: background 0.22s ease, padding-left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .contact-channel:hover {
+      background: rgba(181,32,32,0.07) !important;
+      padding-left: 2.25rem !important;
+    }
+    .channel-arrow {
+      width: 16px; height: 16px;
+      stroke: var(--gray-mid);
+      fill: none;
+      stroke-width: 1.5;
+      flex-shrink: 0;
+      transition: stroke 0.22s ease;
+    }
+    .contact-channel:hover .channel-arrow {
+      stroke: var(--red);
+    }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The 27th Frame — Cinematic visual narratives. Emotion-driven storytelling for brands, artists, and events." />
+  <title>The 27th Frame — Every Frame Counts</title>
+  <link rel="icon" href="logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" data-no-transition>THE <span>27</span>TH FRAME</a>
+      <div class="nav__links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="story.html">Our Story</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav__menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="story.html">Our Story</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- ── Hero ──────────────────────────────────────────────── -->
+  <section class="hero">
+    <!-- Subtle cinematic background layers -->
+    <div class="hero__bg"></div>
+    <div class="hero__film-grain"></div>
+
+    <!-- Decorative frame lines -->
+    <div style="
+      position: absolute;
+      inset: 1.5rem;
+      border: 1px solid rgba(211,211,211,0.05);
+      z-index: 2;
+      pointer-events: none;
+    "></div>
+    <div style="
+      position: absolute;
+      top: 1.5rem; left: 1.5rem;
+      width: 60px; height: 60px;
+      border-top: 1px solid rgba(164,22,26,0.4);
+      border-left: 1px solid rgba(164,22,26,0.4);
+      z-index: 2;
+      pointer-events: none;
+    "></div>
+    <div style="
+      position: absolute;
+      bottom: 1.5rem; right: 1.5rem;
+      width: 60px; height: 60px;
+      border-bottom: 1px solid rgba(164,22,26,0.4);
+      border-right: 1px solid rgba(164,22,26,0.4);
+      z-index: 2;
+      pointer-events: none;
+    "></div>
+
+    <div class="container hero__content">
+      <div class="hero__eyebrow reveal delay-1">
+        <span class="label">Cinematic Production</span>
+      </div>
+      <h1 class="hero__headline reveal delay-2">
+        NOT<br>
+        CONTENT<span class="red">.</span><br>
+        <em>CINEMA</em><span style="color: var(--gray-mid);">.</span>
+      </h1>
+      <p class="hero__sub reveal delay-3">
+        We don't make videos.<br>
+        We craft visual narratives that make people feel something — and <em>remember</em> everything.
+      </p>
+      <div class="reveal delay-4">
+        <a href="services.html" class="btn">
+          <span>See Our Work</span>
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ── Ticker ────────────────────────────────────────────── -->
+  <div class="frame-ticker">
+    <div class="frame-ticker__track">
+      <span class="frame-ticker__item">Brand Films<span>✦</span></span>
+      <span class="frame-ticker__item">Cinematic Reels<span>✦</span></span>
+      <span class="frame-ticker__item">Event Aftermovies<span>✦</span></span>
+      <span class="frame-ticker__item">Music Visuals<span>✦</span></span>
+      <span class="frame-ticker__item">Commercial Ads<span>✦</span></span>
+      <span class="frame-ticker__item">Documentary<span>✦</span></span>
+      <span class="frame-ticker__item">Every Frame Counts<span>✦</span></span>
+    </div>
+  </div>
+
+  <!-- ── Logo Stamp ─────────────────────────────────────────── -->
+  <div class="logo-stamp">
+    <img src="logo.jpg" alt="The 27th Frame">
+  </div>
+
+  <!-- ── Brand Statement ───────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div class="reveal">
+        <span class="label">What We Believe</span>
+      </div>
+      <div class="cin-line reveal delay-1"></div>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 3rem;" class="reveal delay-2">
+        <div>
+          <h2 style="font-family: var(--font-serif); font-size: clamp(1.6rem, 5vw, 2.8rem); color: var(--white); font-weight: 300; line-height: 1.45; font-style: italic;">
+            "Every brand carries a story that most people will never tell.<br>
+            <span style="color: var(--red);">We tell it.</span>"
+          </h2>
+        </div>
+        <div>
+          <p style="font-size: 0.92rem; color: var(--gray-mid); line-height: 1.9; max-width: 560px;">
+            The 27th Frame exists for one reason: to transform how brands communicate.
+            Not through louder ads or flashier reels — but through the kind of visual
+            storytelling that stays with an audience long after the screen goes dark.
+          </p>
+          <div class="divider" style="margin: 1.5rem 0;"></div>
+          <a href="about.html" class="btn btn--ghost">
+            <span>Our Philosophy</span>
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Services Preview ──────────────────────────────────── -->
+  <section class="section--sm">
+    <div class="container">
+      <div class="section-heading">
+        <div class="reveal"><span class="label">What We Create</span></div>
+        <h2 class="reveal delay-1">Services</h2>
+        <p class="reveal delay-2">Six ways we translate your brand's truth into moving image.</p>
+      </div>
+
+      <div class="services-preview reveal delay-3">
+        <a href="services.html" class="service-item">
+          <div>
+            <div class="service-item__num">01</div>
+            <div class="service-item__name">Brand Films</div>
+          </div>
+          <div class="service-item__arrow">
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+        <a href="services.html" class="service-item">
+          <div>
+            <div class="service-item__num">02</div>
+            <div class="service-item__name">Reels / Social Videos</div>
+          </div>
+          <div class="service-item__arrow">
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+        <a href="services.html" class="service-item">
+          <div>
+            <div class="service-item__num">03</div>
+            <div class="service-item__name">Event Aftermovies</div>
+          </div>
+          <div class="service-item__arrow">
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+        <a href="services.html" class="service-item">
+          <div>
+            <div class="service-item__num">04</div>
+            <div class="service-item__name">Commercial Ads</div>
+          </div>
+          <div class="service-item__arrow">
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+        <a href="services.html" class="service-item">
+          <div>
+            <div class="service-item__num">05</div>
+            <div class="service-item__name">Music Visuals</div>
+          </div>
+          <div class="service-item__arrow">
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+        <a href="services.html" class="service-item">
+          <div>
+            <div class="service-item__num">06</div>
+            <div class="service-item__name">Documentary</div>
+          </div>
+          <div class="service-item__arrow">
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Stats ─────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div class="stat-strip reveal">
+        <div class="stat-item">
+          <div class="stat-item__num">27<span>th</span></div>
+          <div class="stat-item__label">Frame Mentality</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__num">2<span>x</span></div>
+          <div class="stat-item__label">Formats</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__num">6<span>+</span></div>
+          <div class="stat-item__label">Service Lines</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__num">1<span>st</span></div>
+          <div class="stat-item__label">Principle: Emotion</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Quote ─────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div class="quote-block reveal">
+        <blockquote>
+          "We don't sell video. We sell cinematic identity — the kind 
+          that makes your audience feel connected before they even read your name."
+        </blockquote>
+        <cite>— The 27th Frame</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA Banner ────────────────────────────────────────── -->
+  <section class="section--sm">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <span class="label" style="display:block; margin-bottom: 1.5rem;">Ready to Begin?</span>
+        <h2>Let's create<br>something <em style="font-family: var(--font-serif); font-style: italic; color: var(--red);">meaningful.</em></h2>
+        <p>Tell us your story. We'll find the frame that says it all.</p>
+        <a href="contact.html" class="btn">
+          <span>Start a Conversation</span>
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer class="footer section--sm">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__logo">THE <span>27</span>TH FRAME</div>
+          <div class="footer__tagline">Every frame counts.</div>
+        </div>
+        <nav class="footer__nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="story.html">Our Story</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 The 27th Frame. All rights reserved.</p>
+        <p class="footer__copy">Emotion-driven. Story-first. Concept-focused.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
